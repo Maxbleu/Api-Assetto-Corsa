@@ -20,7 +20,7 @@ class CircuitsTableSeeder extends Seeder
             $circuito = new Circuito();
             $circuito->name = self::$circuitos[$iterador]["name"];
             $circuito->country = self::$circuitos[$iterador]["country"];
-            $circuito->url_backgrounds = self::$circuitos[$iterador]["url_backgrounds"];
+            $circuito->url_backgrounds = json_encode(self::$circuitos[$iterador]["url_backgrounds"]);
             $circuito->url_map = self::$circuitos[$iterador]["url_map"];
             $circuito->url_outline = self::$circuitos[$iterador]["url_outline"];
             $circuito->save();

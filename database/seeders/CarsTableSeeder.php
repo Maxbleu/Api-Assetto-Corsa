@@ -488,7 +488,7 @@ class CarsTableSeeder extends Seeder
             "power_to_weight_ratio" => 3.26,
             "top_speed" => 280,
             "year" => 1986,
-            "descripttion" => "Based on the 1986 model year E30 3-Series, the E30 M3 used the BMW S14 four cylinder engine.The production of the E30 road car was to homologate the M3 for Group A Touring Car racing.
+            "description" => "Based on the 1986 model year E30 3-Series, the E30 M3 used the BMW S14 four cylinder engine.The production of the E30 road car was to homologate the M3 for Group A Touring Car racing.
                             The M3 had a commanding presence on the international touring car racing scene for five years. It became the most successful touring car of all times by winning the two champion's titles in the European Touring Car Championship and twice in the German Touring Car Championship. There were also numerous further victories and championship wins at international level.
                             The late 80s cars were starting to showcase the extreme potential of the car, with engines screaming at over 8000RPM and outputs of over 290 bhp. The chassis and suspension was modified and reinforced to support the extra power and provide adequate handling.",
             "url_image" => "/public/images/coches/bmw/bmw_m3_e30_gra.png",
@@ -638,6 +638,7 @@ class CarsTableSeeder extends Seeder
             "weight" => 1605,
             "power_to_weight_ratio" => 4.86,
             "top_speed" => 250,
+            "year" => 2009,
             "description" => "The BMW Z4 Roadster represents the interplay of classical proportions and state-of-the-art technology. The  BMW Z4 sDrive35is offering a higher standard of performance ensured both by the modified straight-six power unit with BMW Twin Turbo Technology and High Precision Injection, on the one hand, and by BMW's seven-speed Sport Automatic with double clutch operation and the M Sports Package including the adaptive M Suspension likewise featured as standard, on the other.
                             The BMW Z4 sDrive35is also comes as standard with an M Sports Package including the M Aerodynamics Package and adaptive M Suspension featuring electronically controlled dampers for even greater agility without making any concessions in terms of comfort.",
             "url_image" => "/public/images/coches/bmw/bmw_z4.png",
@@ -651,6 +652,7 @@ class CarsTableSeeder extends Seeder
             "weight" => 1265,
             "power_to_weight_ratio" => 2.38,
             "top_speed" => 280,
+            "year" => 2009,
             "description" => "The BMW Z4 GT3, which was officially launched and completed its first test drives at the start of March, is already enjoying great popularity among BMW Motorsport customers. The first cars have been delivered to private BMW teams, who will prepare them for use in various national and international championships.
                             The largest difference between production and racing car can be found under the bonnet: while the production version of the BMW Z4 is driven by a six-cylinder engine, the GT3 car is powered by a 4.0-litre eight-cylinder engine similar to the unit used in the BMW M3 GT2. This powerful heart produces over 500 bhp. Its excellent performance characteristics and good torque curve make the base engine from the production version of the BMW M3 predestined for use in motorsport.
                             The fitting of the V8 engine had a considerable influence on the development of the BMW Z4 GT3. Initially, design-space examinations were performed using CATIA V5 design software, in order to place the engine in the ideal position and meet racing specifications. The engineers then added all the other components.
@@ -1248,7 +1250,7 @@ class CarsTableSeeder extends Seeder
                             The development programme has harnessed input from an experienced group including past masters such as Nigel Mansell & Jean Alesi. Their inputs ensure the car delivers outstanding levels of speed and performance which is complimented by a consistency of driveability that is sympathetic to all driving styles.
                             The Lotus 125 embodies all the performance attributes of a modern f1 car, but without the need for F1 levels
                             of personal support and associated running costs. The Lotus 125 offers the thrill of f1 ownership at a fraction of the cost - but with no compromises.",
-            "url_image" >= "/public/images/coches/lotus/lotus_exos_125_s1.png",
+            "url_image" => "/public/images/coches/lotus/lotus_exos_125_s1.png",
             "brand_id" => 10
         ],
         [
@@ -2632,7 +2634,7 @@ class CarsTableSeeder extends Seeder
             "power" => 690,
             "torque" => 756,
             "weight" => 1505,
-            "power_to_weight_ratio" => 2018,
+            "power_to_weight_ratio" => 2.018,
             "top_speed" => 320,
             "year" => 1993,
             "description" => "Toyota Supra was one of the finest Japanese supercar: through tuning it easily reaches 600hp and can go over 1000hp.
