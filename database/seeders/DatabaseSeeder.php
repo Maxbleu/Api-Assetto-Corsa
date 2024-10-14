@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
         Model::unguard();
         $this->call(BrandsTableSeeder::class);
         $this->call(CircuitsTableSeeder::class);
+        $this->call(CarsTableSeeder::class);
     }
 }
