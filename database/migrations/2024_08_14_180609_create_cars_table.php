@@ -23,7 +23,7 @@ return new class extends Migration
             $table->integer("top_speed");
 
             $table->integer("year");
-            $table->string("description",10000);
+            $table->text("description");
             $table->string("url_image");
 
             $table->unsignedBigInteger("brand_id")->nullable();
